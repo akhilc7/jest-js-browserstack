@@ -1,4 +1,5 @@
 module.exports = {
+  setupFilesAfterEnv: ['./jest.setup.js'],
   coverageProvider: "v8",
   maxConcurrency: 5,
   maxWorkers: 5,
